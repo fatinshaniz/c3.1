@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#calendar {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.fc-day-past {
+  background: repeating-linear-gradient(
+    -45deg,
+    #ffffff,
+    #ffffff 17px,
+    #fce4ec 17px,
+    #fce4ec 20px
+  );
+}
+
+.navbar-nav {
+  --bs-nav-link-padding-y: 0rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #212121;
+  /* font-size: 1.1em; */
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.fa-right-from-bracket {
+  color: #69bfc2;
+}
+
+.navbar .navbar-nav .fa-right-from-bracket:hover {
+  color: #fff;
+}
+
+.navbar .navbar-nav .nav-item {
+  border-radius: 25px;
+  border: 2px solid #69bfc2;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+  border-radius: 25px;
+  background-color: #69bfc2;
+}
+
+.fc-button-group .fc-addRoom1Button-button {
+  background-color: #80c44f;
+  border: 0;
+}
+
+.fc-button-group .fc-addRoom2Button-button {
+  background-color: #f17b2e;
+  border: 0;
+}
+
+footer {
+  background-color: #69bfc2;
+  /* height: 6vh; */
+  color: white;
+  font-size: 1.2rem;
+  margin-top: auto;
+}
+
+.box {
+  width: 25vw;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+  /* Centered box */
+}
+
+.box h2 {
+  margin-bottom: 15px;
+}
+
+.box label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.box button:hover {
+  background-color: #0056b3;
+}
+
+.box .links {
+  margin-top: 20px;
+}
+
+.box .links a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.box .links a:hover {
+  color: #1e636a;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
